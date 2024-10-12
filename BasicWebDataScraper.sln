@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeLibrary", "ScrapeLibrary\ScrapeLibrary.csproj", "{203B428D-2119-408C-8540-180AD5313D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeClient", "ScrapeClient\ScrapeClient.csproj", "{8E470A84-960C-468F-ADDF-F8BE630A0830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryLibrary", "DirectoryLibrary\DirectoryLibrary.csproj", "{1BE0FAEA-9288-4C6A-8C91-1C502BBB6166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullLibrary", "NullLibrary\NullLibrary.csproj", "{4BC097D2-2DDD-4D5D-9421-958C7496C0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2167321D-9062-4D0E-ACF0-66310EE3C254}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203B428D-2119-408C-8540-180AD5313D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203B428D-2119-408C-8540-180AD5313D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203B428D-2119-408C-8540-180AD5313D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203B428D-2119-408C-8540-180AD5313D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E470A84-960C-468F-ADDF-F8BE630A0830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E470A84-960C-468F-ADDF-F8BE630A0830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E470A84-960C-468F-ADDF-F8BE630A0830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E470A84-960C-468F-ADDF-F8BE630A0830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE0FAEA-9288-4C6A-8C91-1C502BBB6166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE0FAEA-9288-4C6A-8C91-1C502BBB6166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE0FAEA-9288-4C6A-8C91-1C502BBB6166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE0FAEA-9288-4C6A-8C91-1C502BBB6166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC097D2-2DDD-4D5D-9421-958C7496C0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC097D2-2DDD-4D5D-9421-958C7496C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC097D2-2DDD-4D5D-9421-958C7496C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC097D2-2DDD-4D5D-9421-958C7496C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5E69CA0-1C54-4CCF-80C6-1A0BBC94A27C}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.0
+		description = A basic HTML web-scraper.
+	EndGlobalSection
+EndGlobal
